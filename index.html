@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intro-section</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Epilogue" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div id="menu-overlay" class="menu-overlay"></div>
+  <div class="mobile-logo">Span</div>
+  <form> <button id="menu-btn" class="menu-btn"> <img id="menu-icon" class="nav-icon menu-icon" src="/images/icon-menu.svg" alt="menu-icon">
+     <img id="close-icon" class=" nav-icon close-icon" src="./images/icon-close-menu.svg" alt="close-icon"></button>
+  </form>
+  <section id="nav-section" class="nav-section">
+
+    <nav class="sub-section">
+      <h1 id="logo">snap</h1>
+      <div class="menu" id="menu-bar" style="width:100%;">
+
+        <ul class="drop-downs">
+          <li class="nav-item">
+            <button href="" class="nav-btn" id="nav-btn">
+              Features
+              <img id="img-down" src="images/icon-arrow-down.svg" alt="arrow-down"/>
+
+              <ul class="feature-drops" id="feature-drops">
+                <a href=""><img src="images/icon-todo.svg" alt="todo-icon"/> ToDo List</a><br /><br />
+                <a href=""><img src="images/icon-calendar.svg" alt="cal-icon" />Calender</a><br /><br />
+                <a href=""><img src="images/icon-reminders.svg" alt="reminder-icon" /> Reminders</a><br />
+                <br />
+                <a href=""><img src="images/icon-planning.svg" alt="plan-icon" /> Planning</a>
+              </ul>
+          </li>
+          </button>
+          <li class="nav-item">
+            <button href="contact.html" class="nav-btn" id="nav-link">
+              Company<img id="img-drop" src="images/icon-arrow-down.svg" alt="arrow-down"/>
+
+              <ul class="dropdown-two" id="dropdown-two">
+                <a href="#">History</a><br />
+                <a href="#">Our Team</a><br />
+                <a href="#">Blog</a>
+              </ul>
+          </li>
+          </button>
+          <li class="nav-item">
+            <button href="register.html" class="nav-btn" id="nav-career">
+              Career
+            </button>
+          </li>
+          <li class="nav-item">
+            <button href="login.html" class="nav-btn" id="nav-about">
+              About
+            </button>
+          </li>
+          <div class="sub-btn">
+            <button id="login-btn">Login</button>
+            <button id="reg-btn">Register</button>
+
+          </div>
+        </ul>
+
+      </div>
+    </nav>
+  </section>
+
+  <section class="hero">
+    <div class="txt-area">
+      Make &nbsp<br />remote work<br />
+      <h2 class="sub-txt">
+        Get your team in sync. no matter your location.<br />
+        Streamline processes. create team rituals, and <br />watch
+        productivity soar.
+      </h2>
+      <button class="txt-btn">Learn more</button><br />
+      <div class="svg">
+        <img class="icon" src="images/client-databiz.svg" alt="icon" />
+        <img class="icon" src="images/client-audiophile.svg" alt="icon"/>
+        <img class="icon" src="images/client-meet.svg" alt="icon"/>
+        <img class="icon" src="images/client-maker.svg" alt="icon" />
+      </div>
+    </div>
+    <div class="avatar"></div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.rotate/2.3.2/jquery.rotate.min.js"></script>
+  <script src="intro.js"></script>
+  
+ 
+</body>
+
+</html>
